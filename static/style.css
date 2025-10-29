@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6{
 .header_search_icon{
     padding:6px;
     background-color:#fff;
-    font-size:9px;
+    font-size:12px;
     color:#888;
     border:none;
     border-radius: 9px;
@@ -499,7 +499,7 @@ h1, h2, h3, h4, h5, h6{
     font-size:12px;
 }
 
-.product_image_div .fa, .fa-search {
+.product_image_div .fa {
     padding:10px;
     background-color: #fff;
     border-radius:100%;
