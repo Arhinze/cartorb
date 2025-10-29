@@ -15,14 +15,11 @@ Index_Segments::header();
     <h3>a. Personal Information</h3>
     When you place an order or create an account, we may collect:
     <br/>
-    Your name
-    <br/>
-    Email address
-    <br/>
-    Shipping and billing address
-    <br/>
-    Phone number
-    <br/>
+    
+    Your name<br/>
+    Email address<br/>
+    Shipping and billing address<br/>
+    Phone number<br/>
     Payment information (handled securely through trusted third-party processors)
     
     <h3>b. Automatically Collected Information</h3>
