@@ -5,9 +5,9 @@ Index_Segments::header();
 ?>
 <div style="margin:12px 15px">
     <h1>Privacy Policy</h1>
-    <p><b>Effective Date:</b> Sat 12th July 2025</p>
+    <p><b>Effective Date:</b> Wed 29th October 2025</p>
     
-    <p>Welcome to <b>Biloonline</b>! We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and protect your data when you visit our website or make a purchase.</p>
+    <p>Welcome to <b><?=$site_name?></b>! We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and protect your data when you visit our website or make a purchase.</p>
     
     <h2>1. Information We Collect</h2>
     We collect certain information to provide a smooth shopping experience:
@@ -49,7 +49,7 @@ Index_Segments::header();
     <br/>
     Prevent fraud and ensure security
     <br/>
-    Send promotional emails (only if you’ve opted in)
+    Send promotional emails (only if you've opted in)
     
     <h2>3. Sharing Your Information</h2>
     We do not sell or rent your personal data. We may share information with:
@@ -69,11 +69,11 @@ Index_Segments::header();
     <br/>
     Correction: Update or fix inaccurate details
     <br/>
-    Deletion: Ask us to delete your account or data (unless we’re legally required to keep it)
+    Deletion: Ask us to delete your account or data (unless we're legally required to keep it)
     <br/>
     Opt-out: Unsubscribe from marketing emails anytime
     <br/>
-    To exercise any of these rights, contact us at [your@email.com].
+    To exercise any of these rights, contact us at support@<?=$site_url_short?>.
     
     <h2>5. Cookies and Tracking</h2>
     We use cookies to:
@@ -93,14 +93,14 @@ Index_Segments::header();
     Biloonline is not intended for children under 13, and we do not knowingly collect information from them.
     
     <h2>8. Updates to This Policy</h2>
-    We may update this Privacy Policy from time to time. If we make significant changes, we’ll let you know via email or a notice on our website.
+    We may update this Privacy Policy from time to time. If we make significant changes, we'll let you know via email or a notice on our website.
     
     <h2>9. Contact Us</h2>
     Have questions or concerns? We’re here to help!
     <br/>
-    <b>Email:</b> <a href="mailto:support@biloonline.com">support@biloonline.com</a><br/>
-    <b>Address:</b> Anambra, Nigeria.<br/>
-    <b>Phone:</b> +2348147964486<br/>
+    <b>Email:</b> <a href="mailto:support@<?=$site_url_short?>">support@<?=$site_url_short?></a><br/>
+    <b>Address:</b> Lagos, Nigeria.<br/>
+    <b>Phone:</b> +2349074642704<br/>
 </div>
     
 <?php Index_Segments::footer(); ?>
