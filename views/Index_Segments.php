@@ -40,7 +40,7 @@ class Index_Segments{
                 </div> 
 
                 <div class="header_shopping_cart">
-                    <span id="index_num_of_products_in_cart" style="font-size:12px;padding:1px 5px;margin-left:-4px;border-radius:100%;color:#fff;background-color:#ff9100">$number_of_products_in_cart</span><a href="/cart"><img src="/static/images/shopping_cart.png"/><!--<i class="fa fa-shopping-cart" style="color:#ff9100"></i>--></a>
+                    <!--<span id="index_num_of_products_in_cart" style="font-size:12px;padding:1px 5px;margin-left:-4px;border-radius:100%;color:#fff;background-color:#ff9100">$ number_of_products_in_cart</span><a href="/cart"><img src="/static/images/shopping_cart.png"/></a>-->
                     &nbsp;
                     <label for="menu-box"><i class="fa fa-bars"></i>  &nbsp; </label>
                 </div> 
