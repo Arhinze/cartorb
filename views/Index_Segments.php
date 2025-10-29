@@ -41,6 +41,8 @@ class Index_Segments{
 
                 <div class="header_shopping_cart">
                     <span id="index_num_of_products_in_cart" style="font-size:12px;padding:1px 5px;margin-left:-4px;border-radius:100%;color:#fff;background-color:#ff9100">$number_of_products_in_cart</span><a href="/cart"><img src="/static/images/shopping_cart.png"/><!--<i class="fa fa-shopping-cart" style="color:#ff9100"></i>--></a>
+                    &nbsp;
+                    <label for="menu-box"><i class="fa fa-bars"></i>  &nbsp; </label>
                 </div> 
             </div> <a name="#top"></a> 
             <!-- end of .headers --> 
@@ -86,39 +88,6 @@ HTML;
         </head>
         <body>
             $main_header
-            <div class="menu_div"><!-- .menu_div starts -->  
-                <div class="menu">
-                    <label for="menu-box"><div class="all_categories"><i class="fa fa-bars"></i>&nbsp; All &nbsp; <i class="fa fa-angle-down"></i></div></label>
-
-                    <div class="menu_item" style="margin-left:99px"><a href="/category/women">Women</a></div>
-                    <div class="menu_item"><a href="/category/men">Men</a></div>
-                    <div class="menu_item"><a href="/category/xenx">Xenx</a></div>
-                    <div class="menu_item"><a href="/category/sports">Sports</a></div>
-                    <div class="menu_item"><a href="/category/jewelry">Jewelry</a></div>
-                    <div class="menu_item"><a href="/category/industrial">Industrial</a></div>
-                    <div class="menu_item"><a href="/category/electronics">Electronics</a></div>
-                    <div class="menu_item"><a href="/category/kids">Kids</a></div>
-                    <div class="menu_item"><a href="/category/bags">Bags</a></div>
-                    <div class="menu_item"><a href="/category/toys">Toy</a></div>
-                    <div class="menu_item"><a href="/category/crafts">Crafts</a></div>
-                    <div class="menu_item"><a href="/category/beauty">Beauty</a></div>                    
-                    <div class="menu_item"><a href="/category/automotive">Automotive</a></div>                    
-                    <div class="menu_item"><a href="/category/garden">Garden</a></div>                    
-                    <div class="menu_item"><a href="/category/office">Office</a></div>
-                    <div class="menu_item"><a href="/category/health">Health</a></div>
-                    <div class="menu_item"><a href="/category/baby">Baby</a></div>
-                    <div class="menu_item"><a href="/category/household">Household</a></div>
-                    <div class="menu_item"><a href="/category/musical-appliances">Musical Appliances</a></div>
-                    <div class="menu_item"><a href="/category/phones-and-accessories">Phones & accessories</a></div>
-                    <div class="menu_item"><a href="/category/food">Food</a></div>
-                    <div class="menu_item"><a href="/category/books">Books</a></div>
-                    <div class="menu_item"><a href="/logout" style="color:red">Logout</a></div>
-
-                    <!--<div class="menu_item"><a href=""><i class="fa fa-user"></i>&nbsp; Sign Up</a></div>-->
-                </div> 
-            </div> <!-- .menu_div ends -->  
-
-
 
             <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
             
