@@ -70,7 +70,7 @@ class Product_Segments extends Index_Segments{
     ){
         $price="N ".number_format($price);
         echo <<<HTML
-            <div class="main_body" style="margin:0"><!-- .main_body starts -->
+            <div class="main_body" style="margin-left:0;margin-right:0"><!-- .main_body starts -->
                 <div class="product_image_div"><!-- .product_image_div starts -->
                     <img class="product_image" src="/static/images/$image1"/>
                     <div class="upi_top_left">
