@@ -28,10 +28,10 @@ class Index_Segments{
                     <img src="/static/images/tiny_site_logo_cartorb.png" class="site_logo"/>
                 </div>
                 <h3 class="site_name">
-                    <a href="/"><span style="color:#ff9100">$site_name</span><!--site_name--></a>
+                    <a href="/"><span>$site_name</span><!--site_name--></a>
                 </h3>
                 <div class="header_search_icon" style="margin-left:9px;margin-top:8px;padding:1px 5px" onclick="show_div('header_search')">
-                    <i class="fa fa-search" style="font-size:12px"></i>
+                    search phones, shoes, groceries... &nbsp; &nbsp; &nbsp; <i class="fa fa-search" style="font-size:12px"></i>
                 </div>
 
                 <div class="header_search" id="header_search" style="display:none">
