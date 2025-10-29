@@ -144,7 +144,7 @@ class Product_Segments extends Index_Segments{
                 <div class="below_product_images"><!-- .below_product_images starts again --> 
                     <div class="commitment_container"><!-- .commitment_container starts -->
                         <div class="commitment_head">
-                            <b><span style="padding:1px 4px;background-color:#ff9100;border-radius:6px">Choice</span>&nbsp; <span style="font-size:15px">Bilo<span style="color:#ff9100">Online</span> Commitment</span></b>
+                            <b style="font-size:15px">$site_name Commitment</b>
                         </div>
                         <div class="commitment">
                             <div class="commitment_left">
