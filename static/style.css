@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6{
 .header_shopping_cart {
     position:absolute;
     float:right;
-    right:6px;
+    right:5px;
     top:18px;
     font-size:21px;
     color:#000
