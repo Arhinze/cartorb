@@ -350,7 +350,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header_search_icon{
-    padding:0 9px;
+    padding:6px 9px;
+    height:fit-content;
     background-color:#ffebda;
     font-size:12px;
     color:#888;
