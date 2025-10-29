@@ -16,7 +16,7 @@ Index_Segments::header();
     <br />
             
     <div>
-        <i class="fa fa-telephone"></i> +2348147964486<br /><br />
+        <i class="fa fa-telephone"></i> +2349074642704<br /><br />
         
         <i class="fa fa-mail"></i> support@<?=$site_url_short?><br />
     </div>
