@@ -25,7 +25,7 @@ Index_Segments::header();
         <br />
     
         <div>
-        <b style="border-bottom:2px solid #fff">WE ARE ACTIVE ON SOCIAL MEDIA:</b> <br /><br />
+            <b style="border-bottom:2px solid #fff">WE ARE ACTIVE ON SOCIAL MEDIA:</b> <br /><br />
             <a href='https://instagram.com'><i class="fa fa-instagram"></i> instagram</a> <br /><br />   
             <a href='https://facebook.com'> <i class="fa fa-facebook"></i> facebook</a> <br /><br />  
             <a href='https://t.me'> <i class="fa fa-telegram"></i> telegram</a> <br /><br />

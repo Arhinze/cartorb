@@ -14,7 +14,7 @@ $category_data = $category_stmt->fetch(PDO::FETCH_OBJ);
 Index_Segments::header(); 
 ?>
 
-<div class="main_body" style="margin:0"><!-- .main_body starts -->
+<div class="main_body" style="margin-left:0;margin-right:0"><!-- .main_body starts -->
 
 <?php
 if ($category_data) {
