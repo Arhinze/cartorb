@@ -346,7 +346,7 @@ h1, h2, h3, h4, h5, h6{
 .site_logo{
     width:27px;
     height:auto;
-    margin:15px 6px 6px 9px;
+    margin:15px 6px 6px 6px;
 }
 
 .header_search_icon{
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6{
 .header_shopping_cart {
     position:absolute;
     float:right;
-    right:15px;
+    right:6px;
     top:18px;
     font-size:24px;
     color:#000

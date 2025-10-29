@@ -31,7 +31,7 @@ class Index_Segments{
                     <a href="/"><span>$site_name</span><!--site_name--></a>
                 </h1>
                 <div class="header_search_icon" onclick="show_div('header_search')">
-                    search phones, shoes, groceries... &nbsp; &nbsp; &nbsp; <i class="fa fa-search"></i>
+                    search phones, shoes, groceries... &nbsp;  <i class="fa fa-search"></i>
                 </div>
 
                 <div class="header_search" id="header_search" style="display:none">
