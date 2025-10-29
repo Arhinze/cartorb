@@ -127,6 +127,7 @@ HTML;
             $site_name_uc = strtoupper($site_name);
        
                 echo <<<HTML
+                    <div class="main_body"><!-- .main_body starts -->
                     <!-- All selling on --site starts -->
                     <!-- 1 to 6 -->
                     <div class="topselling_div" style="flex-wrap:wrap"><!-- .flex_div starts(.topselling) --> 
