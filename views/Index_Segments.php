@@ -27,9 +27,9 @@ class Index_Segments{
                 <div class="site_logo_div">
                     <img src="/static/images/tiny_site_logo_cartorb.png" class="site_logo"/>
                 </div>
-                <h3 class="site_name">
+                <h1 class="site_name">
                     <a href="/"><span>$site_name</span><!--site_name--></a>
-                </h3>
+                </h1>
                 <div class="header_search_icon" onclick="show_div('header_search')">
                     search phones, shoes, groceries... &nbsp; &nbsp; &nbsp; <i class="fa fa-search"></i>
                 </div>

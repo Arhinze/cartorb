@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6{
 .site_name{
     color:var(--site_color_alt);
     font-size:15px;
-    margin:18px 6px 6px 6px;
+    margin:18px 6px 6px 0;
     background-color: var(--site_color_main);
 }
 
@@ -353,7 +353,7 @@ h1, h2, h3, h4, h5, h6{
     padding:6px 9px;
     height:fit-content;
     margin-top:12px;
-    margin-left:6px;
+    margin-right:6px;
     background-color:#ffebda;
     font-size:12px;
     color:#888;
