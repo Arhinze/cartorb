@@ -46,8 +46,8 @@ if($cart_count > 0) {//that means cart is not empty
     
                 //echo "customer updated";
             } else {//verified owner of the email not yet logged in
-                echo "<div class='invalid'>Email already in use. <b><a href='/login'>Login</a></b> to your account to continue</div>";
-                $proceed_to_pay = '<div class="long_action_button" style="background-color:#888;box-shadow: 0 0 6px #888 inset;width:fit-content;padding:9px 18px"><b>Proceed to pay</b> &nbsp; <i class="fa fa-chevron-circle-right"></i></div>';
+                echo "<div class='invalid' id='email_in_use'>Email already in use. <b><a href='/login'>Login</a></b> to your account to continue</div>";
+                $proceed_to_pay = '<div class="long_action_button" style="background-color:#888;box-shadow: 0 0 6px #888 inset;width:fit-content;padding:9px 18px" onclick="show_div('."'email_in_use'".')"><b>Proceed to pay</b> &nbsp; <i class="fa fa-chevron-circle-right"></i></div>';
                 
                 $shipping_name = "";
                 $shipping_phone_number = "";
@@ -136,6 +136,7 @@ if(isset($_POST["total_amount"])) {//paystack initialization starts
 Index_Segments::header(); 
 ?>
 
+<div class='invalid' style="display:none" id='email_in_use'>Email already in use. <b><a href='/login'>Login</a></b> to your account to continue</div>
 
 <div class="main_body"><!-- .main_body starts -->
     <div style='margin:12px;font-weight:bold'><a href='/cart' style='color:#000'><i class='fa fa-angle-left' style='font-size:18px'></i></a>&nbsp; Order Confirmation</div>
