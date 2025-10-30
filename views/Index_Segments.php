@@ -25,7 +25,7 @@ class Index_Segments{
         echo <<<HTML
             <div class="headers"> <!-- start of .headers --> 
                 <div class="site_logo_div">
-                    <img src="/static/images/tiny_site_logo_cartorb.png" class="site_logo"/>
+                    <a href="/"><img src="/static/images/tiny_site_logo_cartorb.png" class="site_logo"/></a>
                 </div>
                 <h1 class="site_name">
                     <a href="/"><span>$site_name</span><!--site_name--></a>
