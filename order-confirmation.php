@@ -195,7 +195,7 @@ if ($cart_count > 0) {//that means user has an item or more in cart -- list them
             <div style='margin:12px;font-weight:bold'><i class='fa fa-motorcycle ' style='font-size:18px'></i>&nbsp; Shipping Address</div>
 
             <div style="font-size:12px;margin:12px">
-                <p style="margin-bottom:6px"><b><?=$shipping_name?> +234<?=$shipping_phone_number?></b></p>
+                <p style="margin-bottom:6px"><b><?=$shipping_name9?> +234<?=$shipping_phone_number?></b></p>
                 <?=$shipping_address?> <?=$shipping_lga?> LGA, <?=ucfirst($shipping_state)?> State, Nigeria, <?=$shipping_postal_code?>
             </div>
         </div>
