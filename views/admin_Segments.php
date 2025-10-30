@@ -159,7 +159,7 @@ Class admin_Segments{
         <div style="display:flex;justify-content:center;position:absolute;top:10px;left:15px">
             <div class="menu-icon" style="font-size:21px"><label for = "menu-box"><i class="fa fa-bars"></i></label></div>
 
-            <div style="font-size:18px;margin:-14px 19px 0px 3px"><h3 class="site_name"><a href="/">Bilo<span style="color:#ff9100">Online</span> - <i class="fa fa-lock"></i> Admin</a></h3></div>
+            <div style="font-size:18px;margin:-14px 19px 0px 3px"><h1 class="site_name"><a href="/">Cart<span style="color:#ff9100">Orb</span> - <i class="fa fa-lock"></i> Admin</a></h1></div>
         </div>
 
         <div style="position:absolute;float:right;top:5px;right:12px">
