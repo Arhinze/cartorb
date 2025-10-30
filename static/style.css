@@ -31,6 +31,11 @@ a{
     animation:intro_link 1s infinite 0.2s normal;
 }
 
+.intro_a:hover{
+    background-color: #ffebda;
+    color:#000;
+}
+
 @keyframes intro_link{
     from{
         padding:12px 24px;
