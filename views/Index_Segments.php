@@ -128,8 +128,13 @@ HTML;
        
                 echo <<<HTML
                 <div class="main_body"><!-- .main_body starts -->
-                    <h2>Shop Smart. Save Big</h2>
-                    <div>Explore our wide range of products. Any category of your choice is not just available but affordable. Join the smart shoppers online today and add to <b style="color:#ff9100">Cart</b>.</div>
+                    <div>
+                        <div>
+                            <h2>Shop Smart. Save Big</h2>
+                            <div>Explore our wide range of products. Any category of your choice is not just available but affordable. Join the smart shoppers online today and add to <b style="color:#ff9100">Cart</b>.</div>
+                        </div>
+                        <div><a href="#start_shopping" style="color:#fff;padding:12px 24px;border-radius:9px;background-color:#ff9100">SHOP NOW <i class="fa fa-arrow-right"></i></a></div>
+                    </div>
                     <!-- All selling on --site starts -->
                     <!-- 1 to 6 -->
                     <div class="topselling_div" style="flex-wrap:wrap"><!-- .flex_div starts(.topselling) --> 
@@ -146,7 +151,7 @@ HTML;
                                 $sel_c2_price = number_format($sel_c2->price);
                                 $sel_c2_former_price = number_format($sel_c2->former_price);
                                 echo <<<HTML
-                                    <div class="deal_div"><!-- .deal_div starts --> 
+                                    <div class="deal_div"><!-- .deal_div starts --><span id="start_shopping"></span> 
                                         <a href="/product/$sel_c2->product_url" style="color:inherit"><!-- link to product page starts -->
                                         <img src="/static/images/$sel_c2->image1" class="deal_img"/>   
                                         <div class="below_deal_img"><!-- .below_deal_img starts -->
