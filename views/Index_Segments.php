@@ -28,7 +28,7 @@ class Index_Segments{
                     <img src="/static/images/tiny_site_logo_cartorb.png" class="site_logo"/>
                 </div>
                 <h1 class="site_name">
-                    <a href="/">Cart<span style="color:#ff9100">Orb</span><!--site_name--></a>
+                    <a href="/"><span>$site_name</span><!--site_name--></a>
                 </h1>
                 <div class="header_search_icon" onclick="show_div('header_search')">
                     search phones, shoes, groceries... &nbsp;  <i class="fa fa-search"></i>
@@ -127,7 +127,9 @@ HTML;
             $site_name_uc = strtoupper($site_name);
        
                 echo <<<HTML
-                    <div class="main_body"><!-- .main_body starts -->
+                <div class="main_body"><!-- .main_body starts -->
+                    <h2>Shop Smart. Save Big</h2>
+                    <div>Explore our wide range of products. Any category of your choice is not just available but affordable. Join the smart shoppers online today and add to <b style="color:#ff9100">Cart</b>.</div>
                     <!-- All selling on --site starts -->
                     <!-- 1 to 6 -->
                     <div class="topselling_div" style="flex-wrap:wrap"><!-- .flex_div starts(.topselling) --> 
