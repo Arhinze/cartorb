@@ -151,7 +151,7 @@ HTML;
                                 $sel_c2_price = number_format($sel_c2->price);
                                 $sel_c2_former_price = number_format($sel_c2->former_price);
                                 echo <<<HTML
-                                    <div class="deal_div"><!-- .deal_div starts --><span id="start_shopping"></span> 
+                                    <div class="deal_div"><!-- .deal_div starts -->
                                         <a href="/product/$sel_c2->product_url" style="color:inherit"><!-- link to product page starts -->
                                         <img src="/static/images/$sel_c2->image1" class="deal_img"/>   
                                         <div class="below_deal_img"><!-- .below_deal_img starts -->
@@ -293,7 +293,7 @@ HTML;
 
                echo <<<HTML
                     <!-- All selling on ~site_name starts -->
-                    <!-- 6 to 12 -->
+                    <!-- 6 to 12 --><span id="start_shopping"></span> 
                     <div class="topselling_div" style="flex-wrap:wrap"><!-- .flex_div starts(.topselling) --> 
 HTML;
                         $select_call2_stmt = Index_Segments::$pdo->prepare("SELECT * FROM products ORDER BY product_id DESC LIMIT ?, ?");
