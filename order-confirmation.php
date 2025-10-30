@@ -12,6 +12,15 @@ $cart_data = $cart_stmt->fetchAll(PDO::FETCH_OBJ);
 $cart_count = count($cart_data);
 $proceed_to_pay = '<div class="long_action_button" style="background-color:green;box-shadow: 0 0 6px #888 inset;width:fit-content;padding:9px 18px"><label for="proceed_to_pay"><b>Proceed to pay</b> &nbsp; <i class="fa fa-chevron-circle-right"></i></label></div>';
 
+if(isset($_POST["shipping_details"])){
+    $shipping_name = htmlentities($_POST["name"]);
+    $shipping_phone_number = htmlentities($_POST["phone_number"]);
+    $shipping_address = htmlentities($_POST["address"]);
+    $shipping_state = htmlentities($_POST["customer_state"]);
+    $shipping_lga = htmlentities($_POST["lga"]);
+    $shipping_postal_code = htmlentities($_POST["postal_code"]);
+}
+
 $new_user_data = "false";
 if($cart_count > 0) {//that means cart is not empty
     foreach($cart_data as $cc){
@@ -37,8 +46,15 @@ if($cart_count > 0) {//that means cart is not empty
     
                 //echo "customer updated";
             } else {//verified owner of the email not yet logged in
-                echo "<div class='invalid'><b><a href='/login'>Login</a></b> to your account to continue</div>";
+                echo "<div class='invalid'>Email already in use. <b><a href='/login'>Login</a></b> to your account to continue</div>";
                 $proceed_to_pay = '<div class="long_action_button" style="background-color:#888;box-shadow: 0 0 6px #888 inset;width:fit-content;padding:9px 18px"><b>Proceed to pay</b> &nbsp; <i class="fa fa-chevron-circle-right"></i></div>';
+                
+                $shipping_name = "";
+                $shipping_phone_number = "";
+                $shipping_address = "";
+                $shipping_lga = "";
+                $shipping_state = "";
+                $shipping_postal_code = "";
             }
         } else {//this is a new user, create(insert)
             $insert_user_stmt = $pdo->prepare("INSERT INTO customers(date_joined, customer_realname,customer_email, unique_id, phone_number, `address`, `state`, LGA, postal_code) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)");
@@ -167,10 +183,10 @@ if ($cart_count > 0) {//that means user has an item or more in cart -- list them
 
         <div class="below_product_images">
             <div style='margin:12px;font-weight:bold'><i class='fa fa-motorcycle ' style='font-size:18px'></i>&nbsp; Shipping Address</div>
-    
+
             <div style="font-size:12px;margin:12px">
-                <p style="margin-bottom:6px"><b><?=$new_user_data->customer_realname?> +234<?=$new_user_data->phone_number?></b></p>
-                <?=$new_user_data->address?> <?=$new_user_data->LGA?> LGA, <?=ucfirst($new_user_data->state)?> State, Nigeria, <?=$new_user_data->postal_code?>
+                <p style="margin-bottom:6px"><b><?=$shipping_name?> +234<?=$shipping_phone_number?></b></p>
+                <?=$shipping_address?> <?=$shipping_lga?> LGA, <?=ucfirst($shipping_state)?> State, Nigeria, <?=$shipping_postal_code?>
             </div>
         </div>
 

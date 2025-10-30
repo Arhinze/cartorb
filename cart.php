@@ -173,6 +173,7 @@ if (count($cart_data) > 0) {//that means user has an item or more in cart -- lis
             <div class="shipping_details">
                 <input type = "number" class="input" name="postal_code" placeholder="Enter Postal Code" value = "<?=$postalCode?>"  min="99" max="99999999" required/>
             </div>
+            <input type="hidden" name="shipping_details"/>
             <input type="submit" id="submit_order" style="display:none"/>
         </form>
     </div><!-- .below_product_images ends -->
