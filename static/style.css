@@ -27,6 +27,16 @@ a{
     padding:12px 24px;
     border-radius:9px;
     background-color:#ff9100;
+    animation: intro_link 2s 0.2 alternate-reverse;
+}
+
+@keyframes intro_link{
+    from{
+        padding:12px 24px;
+    }
+    to{
+        padding:15px 27px;
+    }
 }
 
 .x_scroll {
