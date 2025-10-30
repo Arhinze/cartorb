@@ -65,7 +65,7 @@ if($cart_count > 0) {//if cart is not empty:
 Index_Segments::header(); 
 ?>
 
-<div class="main_body" style="margin:0"><!-- .main_body starts -->
+<div class="main_body"><!-- .main_body starts -->
 
 <?php
 echo "<div style='margin:12px;font-weight:bold'><a href='/' style='color:#000'><i class='fa fa-angle-left' style='font-size:18px'></i></a>&nbsp; Cart ($cart_count)</div>";
