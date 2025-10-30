@@ -133,7 +133,7 @@ HTML;
                             <h2>Shop Smart. Save Big</h2>
                             <div>Explore our wide range of products. Any category of your choice is not just available but affordable. Join the smart shoppers online today and add to <b style="color:#ff9100">Cart</b>.</div>
                         </div>
-                        <div><a href="#start_shopping" style="color:#fff;padding:12px 24px;border-radius:9px;background-color:#ff9100">SHOP NOW <i class="fa fa-arrow-right"></i></a></div>
+                        <div style="margin:21px 0"><a href="#start_shopping" style="color:#fff;padding:12px 24px;border-radius:9px;background-color:#ff9100">SHOP NOW <i class="fa fa-arrow-right"></i></a></div>
                     </div>
                     <!-- All selling on --site starts -->
                     <!-- 1 to 6 -->
