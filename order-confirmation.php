@@ -121,7 +121,7 @@ Index_Segments::header();
 ?>
 
 
-<div class="main_body" style="margin:0"><!-- .main_body starts -->
+<div class="main_body"><!-- .main_body starts -->
     <div style='margin:12px;font-weight:bold'><a href='/cart' style='color:#000'><i class='fa fa-angle-left' style='font-size:18px'></i></a>&nbsp; Order Confirmation</div>
     <div class="below_product_images"><!-- .below_product_images starts -->
     <div style='margin:12px;font-weight:bold'><i class='fa fa-file-text-o' style='font-size:18px'></i>&nbsp; Item details</div>
