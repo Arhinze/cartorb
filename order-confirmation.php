@@ -68,6 +68,15 @@ if($cart_count > 0) {//that means cart is not empty
     $new_user_stmt = $pdo->prepare("SELECT * FROM customers WHERE unique_id =  ? LIMIT ?, ?");
     $new_user_stmt->execute([$customer_id, 0, 1]);
     $new_user_data = $new_user_stmt->fetch(PDO::FETCH_OBJ);
+
+    if($new_user_data){
+        $shipping_name = $new_user_data->customer_realname;
+        $shipping_phone_number = $new_user_data->phone_number;
+        $shipping_address = $new_user_data->address;
+        $shipping_lga = $new_user_data->LGA;
+        $shipping_state = $new_user_data->state;
+        $shipping_postal_code = $new_user_data->postal_code;
+    }
 }
 
 if(isset($_POST["total_amount"])) {//paystack initialization starts
