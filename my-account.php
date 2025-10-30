@@ -6,7 +6,7 @@ Index_Segments::header();
 
 ?>
 
-<div class="main_body" style="margin:0"><!-- .main_body starts -->
+<div class="main_body"><!-- .main_body starts -->
     
 <?php 
     if($data) {//if user is logged in... ~ $data from /php/account-manager.php
