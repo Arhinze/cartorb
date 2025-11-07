@@ -227,7 +227,8 @@ a{
 }
 
 .anniversary_deals {
-    position:relative;
+    display:flex;
+    justify-content: space-between;
     padding:6px;
     background-color: #face95;
     font-weight: bold;
@@ -238,18 +239,8 @@ a{
     height:21px
 }
 
-.ann_d1 {
-    position:absolute;
-    float:left;
-    left:12px;
-    top:5px;
-}
-
-.ann_d2 {
-    position:absolute;
-    float:right;
-    right:21px;
-    top:5px;
+.ann_d1, .ann_d2{
+    margin: 9px;
 }
 
 h1, h2, h3, h4, h5, h6{
