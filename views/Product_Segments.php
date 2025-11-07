@@ -69,7 +69,7 @@ class Product_Segments extends Index_Segments{
         $added_or_not = ADDED_OR_NOT
     ){
         $price="N ".number_format($price);
-        $site_menu = Index_Segments::site_menu();
+        //$site_menu = Index_Segments::site_menu();
 
         echo <<<HTML
             <div class="main_body" style="margin-left:0;margin-right:0"><!-- .main_body starts -->
