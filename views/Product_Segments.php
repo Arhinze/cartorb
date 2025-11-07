@@ -151,7 +151,11 @@ class Product_Segments extends Index_Segments{
                         <p><i class="fa fa-ban"></i>&nbsp; Tax excluded</p>
                     </div>
                 </div><!-- .below_product_images ends -->
+                </div><!-- .site_product_page_div2 ends -->
+                </div><!-- .site_product_page_div1_and_2 ends -->
 
+
+                
                 <div class="below_product_images"><!-- .below_product_images starts again --> 
                     <div class="commitment_container"><!-- .commitment_container starts -->
                         <div class="commitment_head">
@@ -185,8 +189,6 @@ class Product_Segments extends Index_Segments{
                         </div>
                     </div><!-- .commitment_container ends -->
                 </div><!-- .below_product_images ends again -->  
-                </div><!-- .site_product_page_div2 ends -->
-                </div><!-- .site_product_page_div1_and_2 ends -->
 
 
 
