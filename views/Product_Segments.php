@@ -106,21 +106,22 @@ class Product_Segments extends Index_Segments{
                         <i class="fa fa-heart"></i>
                     </div>
                 </div><!-- .product_image_div ends -->   
+
+                <div class="additional_product_images_div_container"><!-- .additional_product_images_div_container starts -->
+                    <div class="additional_product_images_div">
+                        <img class="additional_product_image" src="/static/images/$image1"/>
+                    </div>
+                    <div class="additional_product_images_div">
+                        <img class="additional_product_image" src="/static/images/$image2"/>
+                    </div>
+                    <div class="additional_product_images_div">
+                        <img class="additional_product_image" src="/static/images/$image3"/>
+                    </div>
+                </div><!-- .additional_product_images_div_container ends -->
                 </div><!-- .site_product_page_div1 ends -->
 
                 <div class="site_product_page_div2"><!-- .site_product_page_div2 starts -->
                 <div class="below_product_images" style="margin-top:0"><!-- .below_product_images starts -->  
-                    <div class="additional_product_images_div_container">
-                        <div class="additional_product_images_div">
-                            <img class="additional_product_image" src="/static/images/$image1"/>
-                        </div>
-                        <div class="additional_product_images_div">
-                            <img class="additional_product_image" src="/static/images/$image2"/>
-                        </div>
-                        <div class="additional_product_images_div">
-                            <img class="additional_product_image" src="/static/images/$image3"/>
-                        </div>
-                    </div>
                     <div class="product_description">
                         <!--Original Unlocked Apple iPhone 12 Pro Face ID 5G 6GB RAM 128/256GB ROM 12MP 6.7'' NFC France shipping usd smartphone 99%-->
                         $description
@@ -155,7 +156,7 @@ class Product_Segments extends Index_Segments{
                 </div><!-- .site_product_page_div1_and_2 ends -->
 
 
-                
+
                 <div class="below_product_images"><!-- .below_product_images starts again --> 
                     <div class="commitment_container"><!-- .commitment_container starts -->
                         <div class="commitment_head">
