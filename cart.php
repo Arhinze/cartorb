@@ -66,8 +66,12 @@ Index_Segments::header();
 ?>
 
 <div class="main_body"><!-- .main_body starts -->
+<div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
 
 <?php
+echo Index_Segments::site_menu();
+echo "<div class='site_content'><!-- .site_content_and_menu starts -->";
+
 echo "<div style='margin:12px;font-weight:bold'><a href='/' style='color:#000'><i class='fa fa-angle-left' style='font-size:18px'></i></a>&nbsp; Cart ($cart_count)</div>";
 if (count($cart_data) > 0) {//that means user has an item or more in cart -- list them out:
     foreach($cart_data as $cart_d) {
@@ -194,6 +198,8 @@ if (count($cart_data) > 0) {//that means user has an item or more in cart -- lis
             <label for="submit_order"><b>Checkout</b> &nbsp; <i class="fa fa-chevron-circle-right"></i></label>
         </div>
     </div><!-- .add_to_my_picks ends -->
+</div><!-- .site_content ends -->
+</div><!-- .site_content_and_menu ends -->
 </div><!-- .main_body ends -->
 
 <script>
