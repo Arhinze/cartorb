@@ -15,11 +15,14 @@ Index_Segments::header();
 ?>
 
 <div class="main_body" style="margin-left:0;margin-right:0"><!-- .main_body starts -->
+    <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
 
 <?php
 if ($category_data) {
+    echo Index_Segments::site_menu();
 ?>
 
+<div class="site_content"><!-- .site_content starts -->
 <div class="product_image_div"><!-- .product_image_div starts -->
         <img class="product_image" src="/static/images/<?=$category_data->category_image1?>"/>
         <div class="upi_top_left">
@@ -106,6 +109,8 @@ HTML;
     echo "<div style='font-weight:bold;text-align:center;margin:24px 6px'>Sorry, category not found, kindly select a category on the menu items to browse from.</div>";
 }
 ?>
+</div><!-- .site_content ends -->
+</div><!-- .site_content_and_menu ends -->
 </div><!-- .main_body ends -->
 
 <?php
