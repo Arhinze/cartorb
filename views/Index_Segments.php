@@ -50,7 +50,7 @@ HTML;
     }
 
     public static function site_menu(){
-        echo <<<HTML
+        return <<<HTML
             <div class="site_menu"><!-- .site_menu starts -->
                 <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
                 <ul class="menu_list"><!-- .menu_list starts --> 
