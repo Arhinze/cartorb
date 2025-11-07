@@ -1598,10 +1598,21 @@ h1, h2, h3, h4, h5, h6{
         justify-content: space-between;
     }
 
+    .site_menu{
+        width:21%;
+    }
+
+    .site_content{
+        width:70%
+    }
+
     .menu_list{
         display:block;
-        width:21%;
         position:static;
+    }
+
+    .grey_area{
+        display:none;
     }
 
     .white_background{
