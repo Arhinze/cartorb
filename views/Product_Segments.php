@@ -269,12 +269,12 @@ HTML;
                 </div><!-- .add_to_my_picks ends -->
                 
         
-                <div id="continue_to_cashout" class="continue_to_cashout" style="display:none"><!-- .continue to cashout starts -->
+                <div id="continue_to_cashout" class="continue_to_cashout" style="display:block"><!-- .continue to cashout starts -->
                     <div style="height:20%;width:100%;background-color:#888;opacity:0.1" onclick="show_div('continue_to_cashout')"></div><!-- dummy "grey area" div used to close continue_to_cashout div-->
 
                     <div style="height:80%;border-radius:21px 21px 0 0;background-color:#fff;box-shadow:0 0 3px 0 #ff9100"><!-- ..height:80% starts -->
-                        <div style="margin-bottom:12px;height:40%">
-                            <center><img src="/static/images/$image1" style="width:auto;height:10%"/></center>
+                        <div style="margin-bottom:12px;height:10%">
+                            <center><img src="/static/images/$image1" style="width:auto;height:40%"/></center>
                         </div>
                         <div class="below_continue_to_cashout_img" style="padding:12px"><!-- .below_continue_to_cashout_img starts -->
                             <div class="product_price_div"><!-- .product_price_div starts -->
