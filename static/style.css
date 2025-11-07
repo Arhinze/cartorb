@@ -229,7 +229,6 @@ a{
 .anniversary_deals {
     display:flex;
     justify-content: space-between;
-    padding:6px;
     background-color: #face95;
     font-weight: bold;
     font-size:15px;
@@ -240,11 +239,11 @@ a{
 }
 
 .ann_d1 {
-    margin:9px 15px 15px 6px;
+    padding:9px 15px 15px 6px;
 }
 
 .ann_d2 {
-    margin:9px 6px 15px 15px;
+    padding:9px 6px 15px 15px;
 }
 
 h1, h2, h3, h4, h5, h6{
