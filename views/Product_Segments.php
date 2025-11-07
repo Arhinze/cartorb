@@ -273,7 +273,7 @@ HTML;
                     <div style="height:20%;width:100%;background-color:#888;opacity:0.1" onclick="show_div('continue_to_cashout')"></div><!-- dummy "grey area" div used to close continue_to_cashout div-->
 
                     <div style="height:80%;border-radius:21px 21px 0 0;background-color:#fff;box-shadow:0 0 3px 0 #ff9100"><!-- ..height:80% starts -->
-                        <div style="margin-bottom:12px;height:40%;display:flex;justify-content:space-around">
+                        <div style="margin:12px 0;height:40%;display:flex;justify-content:space-around">
                             <div><img src="/static/images/$image1" style="height:100%;width:auto"/></div>
                         </div>
                         <div class="below_continue_to_cashout_img" style="padding:12px"><!-- .below_continue_to_cashout_img starts -->
