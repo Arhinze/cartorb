@@ -83,7 +83,7 @@ if (count($cart_data) > 0) {//that means user has an item or more in cart -- lis
         foreach($cart_prod_data as $cpd) {
             $short_description = substr($cpd->description,0,36)."... ";
 ?>
-        <div style="display:flex;margin:12px"><!-- cart starts -->
+        <div class="cart_div" style="display:flex;margin:12px"><!-- cart starts -->
             <div class="cart_image_div"><!-- cart img starts -->
                 <img src="/static/images/<?=$cpd->image1?>" class="cart_image"/>
             </div><!-- cart img ends -->
