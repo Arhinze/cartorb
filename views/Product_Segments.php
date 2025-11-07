@@ -69,8 +69,15 @@ class Product_Segments extends Index_Segments{
         $added_or_not = ADDED_OR_NOT
     ){
         $price="N ".number_format($price);
+        $site_menu = Index_Segments::site_menu();
+
         echo <<<HTML
             <div class="main_body" style="margin-left:0;margin-right:0"><!-- .main_body starts -->
+                <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
+
+                    $site_menu
+
+                <div class="site_content"><!-- .site_content starts -->
                 <div class="product_image_div"><!-- .product_image_div starts -->
                     <img class="product_image" src="/static/images/$image1"/>
                     <div class="upi_top_left">
@@ -295,7 +302,8 @@ HTML;
                     </div><!-- ..height:80% ends -->
                 </div><!-- .continue to cashout ends -->
 
-
+                </div><!-- .site_content ends -->
+                </div><!-- .site_content_and_menu ends -->
             </div><!--.main_body end-->     
 HTML;
     }
