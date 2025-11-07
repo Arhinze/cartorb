@@ -1615,6 +1615,11 @@ h1, h2, h3, h4, h5, h6{
         display:none;
     }
 
+    .intro{
+        display:flex;
+        justify-content: space-around;
+    }
+
     .white_background{
         padding:21px;
         width:100%;
