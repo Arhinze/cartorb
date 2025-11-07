@@ -1589,17 +1589,19 @@ h1, h2, h3, h4, h5, h6{
 
 /*For Big Screens:*/
 @media screen and (min-width:48em) {
-    .fashion_choice {
-        background-position: right top;
-    }
-
     .header_shopping_cart{
         display:none;
+    }
+
+    .site_content_and_menu{
+        display:flex;
+        justify-content: space-between;
     }
 
     .menu_list{
         display:block;
         width:21%;
+        position:static;
     }
 
     .white_background{
