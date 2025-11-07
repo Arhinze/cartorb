@@ -1634,12 +1634,13 @@ h1, h2, h3, h4, h5, h6{
 
     .site_cart{
         display:flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         width:100%;
     }
 
     .site_cart .cart_div{
-        width:48%;
+        width:45%;
     }
 
     .white_background{
