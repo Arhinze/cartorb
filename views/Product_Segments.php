@@ -75,7 +75,7 @@ class Product_Segments extends Index_Segments{
             <div class="main_body" style="margin-left:0;margin-right:0"><!-- .main_body starts -->
                 <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
 
-                    $site_menu
+                $site_menu
 
                 <div class="site_content"><!-- .site_content starts -->
                 <div class="product_image_div"><!-- .product_image_div starts -->
@@ -246,6 +246,13 @@ HTML;
                 </div>
 
                 
+                <!-- -->
+                </div><!-- .site_content ends -->
+                </div><!-- .site_content_and_menu ends -->
+                <!-- -->
+
+
+                
                 <div class="add_to_my_picks"><!-- .add_to_my_picks starts -->
                     <div class="long_action_button" onclick='added_or_not($product_id)' style="background-color:#ff9100;box-shadow: 0 0 6px #888 inset">
                         <i class="fa fa-shopping-cart"></i>&nbsp; <span id="added_or_not_id">$added_or_not</span>
@@ -301,9 +308,6 @@ HTML;
                         </div>
                     </div><!-- ..height:80% ends -->
                 </div><!-- .continue to cashout ends -->
-
-                </div><!-- .site_content ends -->
-                </div><!-- .site_content_and_menu ends -->
             </div><!--.main_body end-->     
 HTML;
     }
