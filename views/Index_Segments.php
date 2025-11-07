@@ -22,7 +22,7 @@ class Index_Segments{
     protected static $pdo;
 
     public static function main_header($site_name = SITE_NAME_SHORT, $number_of_products_in_cart = INDEX_NUM_OF_PRODUCTS_IN_CART) {
-        echo <<<HTML
+        return <<<HTML
             <div class="headers"> <!-- start of .headers --> 
                 <div class="site_logo_div">
                     <a href="/"><img src="/static/images/tiny_site_logo_cartorb.png" class="site_logo"/></a>
