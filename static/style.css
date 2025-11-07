@@ -136,26 +136,6 @@ a{
     color:#ff9100
 }
 
-.fashion_choice {
-    margin-top:21px;
-    background-color:#face95;
-    background-image: url("../static/images/female_model.png");
-    background-repeat: no-repeat;
-    background-position: -35% 10%;
-    padding:18px;
-}
-
-.fashion_choice_header {
-    font-weight:bold;
-    font-family:Hammersmith One;
-    font-size:45px
-}
-
-.fashion_choice_text {
-    margin:3px 0 27px 0;
-    font-weight:bold;
-}
-
 .shop_now_div {
     margin-bottom:24px
 }
@@ -1631,6 +1611,18 @@ h1, h2, h3, h4, h5, h6{
     .intro2{
         width:35%;
         margin-top:48px;
+    }
+
+    .topselling_div {
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+    }
+    
+    .topselling_div .deal_div {
+        border:none;
+        width:30%;
+        height:auto;
     }
 
     .white_background{
