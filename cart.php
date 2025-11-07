@@ -128,6 +128,7 @@ if (count($cart_data) > 0) {//that means user has an item or more in cart -- lis
 <?php
         }
     }
+    echo "</div><!-- .site_cart ends -->";
 ?>
     <div class="below_product_images"><!-- .below_product_images starts -->
         <form method = "post" action = "/order-confirmation">
@@ -186,7 +187,6 @@ if (count($cart_data) > 0) {//that means user has an item or more in cart -- lis
     <div class="below_product_images"></div>
 
 <?php
-    echo "</div><!-- .site_cart ends -->";
 } else {//if user has no item in cart:
     echo "<div style='font-weight:bold;text-align:center;margin:24px 6px'>Sorry, No item is in your cart. Kindly add Item to cart to continue.</div>";
 }
