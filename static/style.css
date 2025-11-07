@@ -234,15 +234,15 @@ a{
     font-size:15px;
     width:100%;
     margin:15px 0 0 -13px;
-    height:21px;
+    height:30px;
 }
 
 .ann_d1 {
-    padding:9px 15px 15px 6px;
+    padding:9px;
 }
 
 .ann_d2 {
-    padding:9px 6px 15px 15px;
+    padding:9px;
 }
 
 h1, h2, h3, h4, h5, h6{
