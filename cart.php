@@ -74,6 +74,7 @@ echo "<div class='site_content'><!-- .site_content_and_menu starts -->";
 
 echo "<div style='margin:12px;font-weight:bold'><a href='/' style='color:#000'><i class='fa fa-angle-left' style='font-size:18px'></i></a>&nbsp; Cart ($cart_count)</div>";
 if (count($cart_data) > 0) {//that means user has an item or more in cart -- list them out:
+    echo "<div class='site_cart'><!-- .site_cart starts -->";
     foreach($cart_data as $cart_d) {
         $prod_stmt = $pdo->prepare("SELECT * FROM products WHERE product_id = ?");
         $prod_stmt->execute([$cart_d->product_id]);
@@ -185,6 +186,7 @@ if (count($cart_data) > 0) {//that means user has an item or more in cart -- lis
     <div class="below_product_images"></div>
 
 <?php
+    echo "</div><!-- .site_cart ends -->";
 } else {//if user has no item in cart:
     echo "<div style='font-weight:bold;text-align:center;margin:24px 6px'>Sorry, No item is in your cart. Kindly add Item to cart to continue.</div>";
 }
