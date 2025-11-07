@@ -1617,6 +1617,19 @@ h1, h2, h3, h4, h5, h6{
         height:auto;
     }
 
+    .site_product_page_div1_and_2{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .site_product_page_div1{
+        width:25%;
+    }
+
+    .site_product_page_div2{
+        width:70%;
+    }
+
     .white_background{
         padding:21px;
         width:100%;

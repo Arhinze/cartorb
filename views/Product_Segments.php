@@ -78,6 +78,8 @@ class Product_Segments extends Index_Segments{
                 $site_menu
 
                 <div class="site_content"><!-- .site_content starts -->
+                <div class="site_product_page_div1_and_2"><!-- .site_product_page_div1_and_2 starts -->
+                <div class="site_product_page_div1"><!-- .site_product_page_div1 starts -->
                 <div class="product_image_div"><!-- .product_image_div starts -->
                     <img class="product_image" src="/static/images/$image1"/>
                     <div class="upi_top_left">
@@ -104,7 +106,9 @@ class Product_Segments extends Index_Segments{
                         <i class="fa fa-heart"></i>
                     </div>
                 </div><!-- .product_image_div ends -->   
+                </div><!-- .site_product_page_div1 ends -->
 
+                <div class="site_product_page_div2"><!-- .site_product_page_div2 starts -->
                 <div class="below_product_images" style="margin-top:0"><!-- .below_product_images starts -->  
                     <div class="additional_product_images_div_container">
                         <div class="additional_product_images_div">
@@ -181,6 +185,8 @@ class Product_Segments extends Index_Segments{
                         </div>
                     </div><!-- .commitment_container ends -->
                 </div><!-- .below_product_images ends again -->  
+                </div><!-- .site_product_page_div2 ends -->
+                </div><!-- .site_product_page_div1_and_2 ends -->
 
 
 
