@@ -89,35 +89,6 @@ HTML;
         <body>
             $main_header
 
-            <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
-            
-            <ul class="menu_list"> 
-                <li><h3>All Categories</h3></li>
-                <li><a href="/my-account" style="color:#fff;font-weight:bold;background-color:green;padding:6px 12px;border-radius:12px"><i class="fa fa-user"></i>&nbsp; My Account</a></li>
-                <li><a href="/category/women">Women</a></li>
-                <li><a href="/category/men">Men</a></li>
-                <li><a href="/category/xenx">Xenx</a></li>
-                <li><a href="/category/jewelry">Jewelry</a></li>
-                <li><a href="/category/industrial">Industrial</a></li>
-                <li><a href="/category/electronics">Electronics</a></li>
-                <li><a href="/category/kids">Kids</a></li>
-                <li><a href="/category/bags">Bags</a></li>
-                <li><a href="/category/toys">Toy</a></li>
-                <li><a href="/category/crafts">Crafts</a></li>
-                <li><a href="/category/beauty">Beauty</a></li>
-                <li><a href="/category/automotive">Automotive</a></li>
-                <li><a href="/category/garden">Garden</a></li>
-                <li><a href="/category/health">Health</a></li>
-                <li><a href="/category/baby">Baby</a></li>
-                <li><a href="/category/household">Household</a></li>
-                <li><a href="/category/musical-appliances">Musical Appliances</a></li>
-                <li><a href="/category/phones-and-accessories">Phones & Accessories</a></li>
-                <li><a href="/category/food">Food</a></li>
-                <li><a href="/category/books">Books</a></li>
-                <li><a href="/logout" style="color:#fff;font-weight:bold;background-color:red;padding:6px;border-radius:12px">Log out</a></li>
-                <li style="margin-top:30px"></li>
-                <label for="menu-box"><div class="grey_area"></div></label>
-            </ul>
             <div id="search_hint"></div>
             <!-- used by index_ajax_search() function-->
 HTML;
@@ -128,13 +99,49 @@ HTML;
        
                 echo <<<HTML
                 <div class="main_body"><!-- .main_body starts -->
-                    <div>
-                        <div>
+                <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
+                    <div class="site_menu"><!-- .site_menu starts -->
+                    <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
+                    <ul class="menu_list"><!-- .menu_list starts --> 
+                        <li><h3>All Categories</h3></li>
+                        <li><a href="/my-account" style="color:#fff;font-weight:bold;background-color:green;padding:6px 12px;border-radius:12px"><i class="fa fa-user"></i>&nbsp; My Account</a></li>
+                        <li><a href="/category/women">Women</a></li>
+                        <li><a href="/category/men">Men</a></li>
+                        <li><a href="/category/xenx">Xenx</a></li>
+                        <li><a href="/category/jewelry">Jewelry</a></li>
+                        <li><a href="/category/industrial">Industrial</a></li>
+                        <li><a href="/category/electronics">Electronics</a></li>
+                        <li><a href="/category/kids">Kids</a></li>
+                        <li><a href="/category/bags">Bags</a></li>
+                        <li><a href="/category/toys">Toy</a></li>
+                        <li><a href="/category/crafts">Crafts</a></li>
+                        <li><a href="/category/beauty">Beauty</a></li>
+                        <li><a href="/category/automotive">Automotive</a></li>
+                        <li><a href="/category/garden">Garden</a></li>
+                        <li><a href="/category/health">Health</a></li>
+                        <li><a href="/category/baby">Baby</a></li>
+                        <li><a href="/category/household">Household</a></li>
+                        <li><a href="/category/musical-appliances">Musical Appliances</a></li>
+                        <li><a href="/category/phones-and-accessories">Phones & Accessories</a></li>
+                        <li><a href="/category/food">Food</a></li>
+                        <li><a href="/category/books">Books</a></li>
+                        <li><a href="/logout" style="color:#fff;font-weight:bold;background-color:red;padding:6px;border-radius:12px">Log out</a></li>
+                        <li style="margin-top:30px"></li>
+                        <label for="menu-box"><div class="grey_area"></div></label>
+                    </ul><!-- .menu_list ends -->
+                    </div><!-- .site_menu ends -->
+
+                    <div class="site_content"><!-- .site_content starts -->
+                    <div class="intro"><!-- .intro starts --> 
+                        <div class="intro1">
                             <h2>Shop Smart. Save Big</h2>
                             <div>Explore our wide range of products. Any category of your choice is not just available but affordable. Join smart shoppers on <b style="color:#ff9100">Orb</b> and add to <b style="color:#ff9100">Cart</b> today.</div>
                         </div>
-                        <div style="margin:21px 0"><a href="#start_shopping" class="intro_a">SHOP NOW &nbsp;&nbsp; <i class="fa fa-arrow-right"></i></a></div>
+                        <div class="intro2" style="margin:21px 0"><a href="#start_shopping" class="intro_a">SHOP NOW &nbsp;&nbsp; <i class="fa fa-arrow-right"></i></a></div>
                     </div>
+                    <!-- .intro ends --> 
+
+
                     <!-- All selling on --site starts -->
                     <!-- 1 to 6 -->
                     <div class="topselling_div" style="flex-wrap:wrap"><!-- .flex_div starts(.topselling) --> 
@@ -341,12 +348,12 @@ HTML;
                 echo <<<HTML
                     </div><!-- .flex_div(.topselling_div) ends -->
                     <!-- All selling on ~site_name ends -->
+                    </div><!-- .site_content ends -->
 HTML;
 
-
-
             echo<<<HTML
-                </div><!--.main_body end-->
+                </div><!-- .site_content_and_menu ends -->
+                </div><!-- .main_body end-->
 HTML;
        }
                                                                 
