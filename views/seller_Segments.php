@@ -54,132 +54,132 @@ Class seller_Segments{
 
         echo <<<HTML
             <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="/static/style.css?$css_version"/>
-    <link rel="stylesheet" href="/static/font-awesome-4.7.0/css/font-awesome.min.css"/>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-
-    <style>
-        .admin_invest_now_button{
-            padding:4px 8px;
-            color:#fff;
-            border-radius:6px;
-            background-color:#ff9100;
-            font-size:15px;
-            border:none;
-        }
-
-        .table_row_ED{
-            padding:6px;
-            font-size:12px;
-            border-radius:6px;
-            color:#fff;
-            text-align:center;
-            border:none;
-            margin:0 5px 5px 0;
-        }
-
-        .edit_product_action_button {
-            padding:9px 12px;
-            border-radius:9px;
-            margin-right:9px;
-            color:#fff;
-            font-weight:bold
-        }
-
-        .edit_product_input {
-            border-left:50px solid #000;
-            border-radius:4px;
-            height:18px;
-            width:80%;
-            margin-bottom:15px;
-            padding:6px;
-        }
-
-        .admin-pages-input{
-            border-radius:6px;
-            border:1px solid #888;
-        }
-
-        .menu_list .fa {
-            margin-right:6px;
-        }
-
-        /*
-        .goog-logo-link {
-            display:none !important;
-        } 
+            <html lang="en">
+            <head>
+                <link rel="stylesheet" href="/static/style.css?$css_version"/>
+                <link rel="stylesheet" href="/static/font-awesome-4.7.0/css/font-awesome.min.css"/>
             
-        .goog-te-gadget {
-            color: transparent !important;
-        }
-        
-        .goog-te-banner-frame.skiptranslate {
-            display: none !important;
-        }        
-
-        */
-    </style>
-    <title>Admin - $site_name </title>
-
-</head>
-<body>
-    <div class="headers" style="height:36px;width:100%;"> 
-        <div style="display:flex;justify-content:center;position:absolute;top:10px;left:15px">
-            <div class="menu-icon" style="font-size:21px"><label for = "menu-box"><i class="fa fa-bars"></i></label></div>
-
-            <div style="font-size:18px;margin:-14px 19px 0px 3px"><h1 class="site_name"><a href="/">Cart<span style="color:#ff9100">Orb</span> - <i class="fa fa-lock"></i> Admin</a></h1></div>
-        </div>
-
-        <div style="position:absolute;float:right;top:5px;right:12px">
-            <i style="background-color:#ff9100;color:#fff; border-radius:6px;padding:6px 8px;text-align:center;margin:6px 3px 0px 6px;" class="fa fa-user"></i> 
-            $Hi_admin
-            <i  style="background-color:#ff9100;color:#fff; border-radius:100%;padding:3px 5px;text-align:center;margin:6px 3px 0px 6px;"  class="fa fa-angle-down"></i>
-        </div>
-    </div> 
-
-    <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
-    
-    <ul class="menu_list"> 
-        <li><i class="fa fa-home"></i> <a href="/admin-products">My Products</a></li>
-        <li><i class="fa fa-bolt"></i> <a href="/orders">My Orders</a></li>
-
-        <li><i class="fa fa-key"></i> <a href="/seller-reset-password">Reset Password</a></li>
-
-        <li><a href="/logout" style="color:#fff;font-weight:bold;background-color:#0bee3ccc;padding:6px;border-radius:12px">Log out</a></li>
-        
-        <label for="menu-box"><div class="grey_area"></div></label>
-    </ul>
-
-    <div style="display:flex;margin:50px 1%;justify-content:space-around;width:80%">
-        <div class="below_header_div" style="background-color:#ff9100">
-            <div class="numbers_and_fa">
-                <div class="numbers"><a href="/admin-products" style="color:#000">$num_of_prod</a></div>
-                <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
-            </div>
-            <div><a href="/admin-products" style="color:#000">Products</a></div>
-        </div>
-
-        <div class="below_header_div">
-            <div class="numbers_and_fa">
-                <div class="numbers"><a href="/customers" style="color:#000">$num_of_users</a></div>
-                <div><a href="/customers" style="color:#000"><i class="fa fa-user"></i></a></div>
-            </div>
-            <div><a href="/customers" style="color:#000">Registered Users</a></div>
-        </div>
-
-        <div class="below_header_div" style="background-color:#f3d111">
-            <div class="numbers_and_fa">
-                <div class="numbers"><a href="/orders" style="color:#000">$num_of_orders</a></div>
-                <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
-            </div>
-            <div><a href="/orders" style="color:#000">Pending Orders</a></div>
-        </div>
-    </div>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+            
+                <style>
+                    .admin_invest_now_button{
+                        padding:4px 8px;
+                        color:#fff;
+                        border-radius:6px;
+                        background-color:#ff9100;
+                        font-size:15px;
+                        border:none;
+                    }
+            
+                    .table_row_ED{
+                        padding:6px;
+                        font-size:12px;
+                        border-radius:6px;
+                        color:#fff;
+                        text-align:center;
+                        border:none;
+                        margin:0 5px 5px 0;
+                    }
+            
+                    .edit_product_action_button {
+                        padding:9px 12px;
+                        border-radius:9px;
+                        margin-right:9px;
+                        color:#fff;
+                        font-weight:bold
+                    }
+            
+                    .edit_product_input {
+                        border-left:50px solid #000;
+                        border-radius:4px;
+                        height:18px;
+                        width:80%;
+                        margin-bottom:15px;
+                        padding:6px;
+                    }
+            
+                    .admin-pages-input{
+                        border-radius:6px;
+                        border:1px solid #888;
+                    }
+            
+                    .menu_list .fa {
+                        margin-right:6px;
+                    }
+            
+                    /*
+                    .goog-logo-link {
+                        display:none !important;
+                    } 
+                        
+                    .goog-te-gadget {
+                        color: transparent !important;
+                    }
+                    
+                    .goog-te-banner-frame.skiptranslate {
+                        display: none !important;
+                    }        
+            
+                    */
+                </style>
+                <title>Seller - $site_name</title>
+            
+            </head>
+            <body>
+                <div class="headers" style="height:36px;width:100%;"> 
+                    <div style="display:flex;justify-content:center;position:absolute;top:10px;left:15px">
+                        <div class="menu-icon" style="font-size:21px"><label for = "menu-box"><i class="fa fa-bars"></i></label></div>
+            
+                        <div style="font-size:18px;margin:-14px 19px 0px 3px"><h1 class="site_name"><a href="/">Cart<span style="color:#ff9100">Orb</span> - <i class="fa fa-shopping-cart"></i> Seller</a></h1></div>
+                    </div>
+            
+                    <div style="position:absolute;float:right;top:5px;right:12px">
+                        <i style="background-color:#ff9100;color:#fff; border-radius:6px;padding:6px 8px;text-align:center;margin:6px 3px 0px 6px;" class="fa fa-user"></i> 
+                        $Hi_admin
+                        <i  style="background-color:#ff9100;color:#fff; border-radius:100%;padding:3px 5px;text-align:center;margin:6px 3px 0px 6px;"  class="fa fa-angle-down"></i>
+                    </div>
+                </div> 
+            
+                <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
+                
+                <ul class="menu_list"> 
+                    <li><i class="fa fa-home"></i> <a href="/admin-products">My Products</a></li>
+                    <li><i class="fa fa-bolt"></i> <a href="/orders">My Orders</a></li>
+            
+                    <li><i class="fa fa-key"></i> <a href="/seller-reset-password">Reset Password</a></li>
+            
+                    <li><a href="/logout" style="color:#fff;font-weight:bold;background-color:#0bee3ccc;padding:6px;border-radius:12px">Log out</a></li>
+                    
+                    <label for="menu-box"><div class="grey_area"></div></label>
+                </ul>
+            
+                <div style="display:flex;margin:50px 1%;justify-content:space-around;width:80%">
+                    <div class="below_header_div" style="background-color:#ff9100">
+                        <div class="numbers_and_fa">
+                            <div class="numbers"><a href="/admin-products" style="color:#000">$num_of_prod</a></div>
+                            <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
+                        </div>
+                        <div><a href="/admin-products" style="color:#000">Products</a></div>
+                    </div>
+            
+                    <div class="below_header_div">
+                        <div class="numbers_and_fa">
+                            <div class="numbers"><a href="/customers" style="color:#000">$num_of_users</a></div>
+                            <div><a href="/customers" style="color:#000"><i class="fa fa-user"></i></a></div>
+                        </div>
+                        <div><a href="/customers" style="color:#000">Registered Users</a></div>
+                    </div>
+            
+                    <div class="below_header_div" style="background-color:#f3d111">
+                        <div class="numbers_and_fa">
+                            <div class="numbers"><a href="/orders" style="color:#000">$num_of_orders</a></div>
+                            <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
+                        </div>
+                        <div><a href="/orders" style="color:#000">Pending Orders</a></div>
+                    </div>
+                </div>
 HTML;
 }
 
