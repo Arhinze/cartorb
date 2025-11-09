@@ -22,7 +22,7 @@ if(isset($_POST["seller_name"])){
 if(isset($_POST["user_code"])){
     $sellercode = $_POST["user_code"];
     if($sellercode == $_POST["xsrf_code"]){
-        $stmt = $pdo->prepare("SELECT * FROM `seller` WHERE seller_name = ? AND seller_password = ?");
+        $stmt = $pdo->prepare("SELECT * FROM `sellers` WHERE seller_name = ? AND seller_password = ?");
         $stmt->execute([$_POST["seller_name"], $_POST["seller_password"]]);
         $data = $stmt->fetchAll(PDO::FETCH_OBJ);
 
