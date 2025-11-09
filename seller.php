@@ -1,10 +1,10 @@
 <?php
 
 include_once("views/Index_Segments.php");
-if(isset($_COOKIE["seller_name"]) && isset($_COOKIE["seller_password"])){
+if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
 
-    $stmt = $pdo->prepare("SELECT * FROM sellers WHERE seller_name = ? AND seller_password = ?");
-    $stmt->execute([$_COOKIE["seller_name"], $_COOKIE["seller_password"]]);
+    $stmt = $pdo->prepare("SELECT * FROM sellers WHERE seller_username = ? AND seller_password = ?");
+    $stmt->execute([$_COOKIE["seller_username"], $_COOKIE["seller_password"]]);
 
     $data = $stmt->fetch(PDO::FETCH_OBJ);
     if($data){
@@ -15,25 +15,25 @@ if(isset($_COOKIE["seller_name"]) && isset($_COOKIE["seller_password"])){
 $check_seller = "";
 $remember_seller = "";
 
-if(isset($_POST["seller_name"])){
-    $remember_seller = $_POST["seller_name"];   
+if(isset($_POST["seller_username"])){
+    $remember_seller = $_POST["seller_username"];   
 }
 
 if(isset($_POST["user_code"])){
     $sellercode = $_POST["user_code"];
     if($sellercode == $_POST["xsrf_code"]){
-        $stmt = $pdo->prepare("SELECT * FROM `sellers` WHERE seller_name = ? AND seller_password = ?");
-        $stmt->execute([$_POST["seller_name"], $_POST["seller_password"]]);
+        $stmt = $pdo->prepare("SELECT * FROM `sellers` WHERE (seller_username = ? OR seller_email = ?) AND seller_password = ?");
+        $stmt->execute([$_POST["seller_username"], $_POST["seller_password"]]);
         $data = $stmt->fetchAll(PDO::FETCH_OBJ);
 
         if(count($data)>0){
-            setcookie("seller_name", $_POST["seller_name"], time()+(24*3600), "/");
+            setcookie("seller_username", $_POST["seller_username"], time()+(24*3600), "/");
             setcookie("seller_password", $_POST["seller_password"], time()+(24*3600), "/");
 
             header("location:/seller-products");
 
         } else{
-            setcookie("seller_name", $_POST["seller_name"], time()-(24*3600), "/");
+            setcookie("seller_username", $_POST["seller_username"], time()-(24*3600), "/");
             setcookie("seller_password", $_POST["seller_password"], time()-(24*3600), "/"); 
 
             $check_seller = "<div class='invalid'>Wrong Username/password Combination</div>";
@@ -60,7 +60,7 @@ Index_Segments::header();
 
     <form method="post" action=""> 
         <br />Username:<br />
-        <input type="text" placeholder="Username" class="input" name="seller_name" value="<?=$remember_seller?>" required/>    
+        <input type="text" placeholder="Username" class="input" name="seller_username" value="<?=$remember_seller?>" required/>    
            
         <br />Password:<br />
         <input type = "password" placeholder = "Password: *****" name = "seller_password" class="input" required/>
