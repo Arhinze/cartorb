@@ -1643,6 +1643,10 @@ h1, h2, h3, h4, h5, h6{
         width:45%;
     }
 
+    .dashboard_div{
+        margin:30% 25%;
+    }
+
     .white_background{
         padding:21px;
         width:100%;

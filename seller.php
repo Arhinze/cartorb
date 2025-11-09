@@ -53,7 +53,7 @@ Index_Segments::header();
 
 <div class="dashboard_div" style="margin-top:90px">
     <div class="sign-in-welcome">
-        <h2><i class="fa fa-bank"></i><?=$site_name?> Sellers Platform</h2>
+        <h2><i class="fa fa-bank"></i> &nbsp; <?=$site_name?> Sellers Platform</h2>
     </div>
 
     <?=$check_seller?>
