@@ -1,5 +1,5 @@
 <?php
-include_once($_SERVER["DOCUMENT_ROOT"]."/views/admin_Segments.php");
+include_once($_SERVER["DOCUMENT_ROOT"]."/views/seller_Segments.php");
 
 if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
     $stmt = $pdo->prepare("SELECT * FROM `sellers` WHERE (seller_username = ? OR seller_email = ?) AND seller_password = ?");
@@ -8,7 +8,7 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
     $data = $stmt->fetch(PDO::FETCH_OBJ);
     if($data){
         //that means seller is logged in
-        admin_Segments::header();
+        seller_Segments::header();
         //print_r($_POST);
         //echo "<br /><br /><b>",print_r($_FILES),"</b>";
 
@@ -508,7 +508,7 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
     }
 
     echo "</div>"; //end of 'main' div
-    admin_Segments::footer();
+    seller_Segments::footer();
 } else {
     //redirect
     header("location:/seller");
