@@ -124,8 +124,7 @@ Class seller_Segments{
             
                     */
                 </style>
-                <title>Seller - $site_name</title>
-            
+                <title>Seller - $site_name</title>      
             </head>
             <body>
                 <div class="headers" style="height:36px;width:100%;"> 
@@ -142,8 +141,9 @@ Class seller_Segments{
                     </div>
                 </div> 
             
+            <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
+                <div class="site_menu"><!-- .site_menu starts -->
                 <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
-                
                 <ul class="menu_list"> 
                     <li><i class="fa fa-home"></i> <a href="/admin-products">My Products</a></li>
                     <li><i class="fa fa-bolt"></i> <a href="/orders">My Orders</a></li>
@@ -154,32 +154,7 @@ Class seller_Segments{
                     
                     <label for="menu-box"><div class="grey_area"></div></label>
                 </ul>
-            
-                <div style="display:flex;margin:50px 1%;justify-content:space-around;width:80%">
-                    <div class="below_header_div" style="background-color:#ff9100">
-                        <div class="numbers_and_fa">
-                            <div class="numbers"><a href="/admin-products" style="color:#000">$num_of_prod</a></div>
-                            <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
-                        </div>
-                        <div><a href="/admin-products" style="color:#000">Products</a></div>
-                    </div>
-            
-                    <div class="below_header_div">
-                        <div class="numbers_and_fa">
-                            <div class="numbers"><a href="/customers" style="color:#000">$num_of_users</a></div>
-                            <div><a href="/customers" style="color:#000"><i class="fa fa-user"></i></a></div>
-                        </div>
-                        <div><a href="/customers" style="color:#000">Registered Users</a></div>
-                    </div>
-            
-                    <div class="below_header_div" style="background-color:#f3d111">
-                        <div class="numbers_and_fa">
-                            <div class="numbers"><a href="/orders" style="color:#000">$num_of_orders</a></div>
-                            <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
-                        </div>
-                        <div><a href="/orders" style="color:#000">Pending Orders</a></div>
-                    </div>
-                </div>
+                </div><!-- .site_menu ends -->
 HTML;
 }
 
