@@ -1454,18 +1454,6 @@ h1, h2, h3, h4, h5, h6{
     border-radius:6px;
 }
 
-.table_row_div{
-    display:flex;
-    width:105%;
-    font-weight:bold;
-}
-
-.table_row{
-    width:46%;
-    overflow: hidden;
-    text-align: left;
-}
-
 .hidden-menu-div{
     display:none;
     background-color:var(--site_color_alt); 
@@ -1475,20 +1463,6 @@ h1, h2, h3, h4, h5, h6{
     margin:0 8px 2px -10px;
     width:90%;
     margin-right:12px;
-}
-
-.hidden-menu-div a{
-    border-bottom:1px dotted #fff;
-    color:var(--site_color_alt);
-}
-
-.invest_now_button{
-    padding:6px 12px;
-    color:var(--site_color_alt);
-    border-radius:6px;
-    background-color:var(--site_color_alt);
-    font-size:17px;
-    border:none;
 }
 
 .message_success{
@@ -1502,22 +1476,6 @@ h1, h2, h3, h4, h5, h6{
     top:40%;
     width:80%;
     box-shadow:0px 0px 9px 0px #fff
-}
-
-.blink{
-    animation:blink 3s infinite .3s alternate;
-}
-
-@keyframes blink{
-    0%{
-        opacity:1;
-    }
-    50%{
-        opacity:0;
-    }
-    100%{
-        opacity:1;
-    }
 }
 
 .menu_and_user_icon{
@@ -1535,6 +1493,13 @@ h1, h2, h3, h4, h5, h6{
     box-shadow:0 0 3px 0 var(--site_color_alt);
 }
 
+.site_numbers {
+    display:flex;
+    margin:50px 1%;
+    justify-content:space-around;
+    width:80%;
+    flex-wrap:wrap;
+}
 /*Dashboard ends*/
 
 /*End of other pages*/

@@ -141,7 +141,7 @@ Class seller_Segments{
                     </div>
                 </div> 
             
-            <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
+                <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
                 <div class="site_menu"><!-- .site_menu starts -->
                 <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
                 <ul class="menu_list"> 
@@ -154,6 +154,25 @@ Class seller_Segments{
                     
                     <label for="menu-box"><div class="grey_area"></div></label>
                 </ul>
+
+                <!-- .below_header_div starts -->
+                <div class="site_numbers">
+                    <div class="below_header_div" style="background-color:#ff9100">
+                        <div class="numbers_and_fa">
+                            <div class="numbers"><a href="/admin-products" style="color:#000">$num_of_prod</a></div>
+                            <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
+                        </div>
+                        <div><a href="/admin-products" style="color:#000">Products</a></div>
+                    </div>
+            
+                    <div class="below_header_div" style="background-color:#f3d111">
+                        <div class="numbers_and_fa">
+                            <div class="numbers"><a href="/orders" style="color:#000">$num_of_orders</a></div>
+                            <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
+                        </div>
+                        <div><a href="/orders" style="color:#000">Pending Orders</a></div>
+                    </div>
+                </div><!-- .site_numbers ends -->
                 </div><!-- .site_menu ends -->
 HTML;
 }
@@ -248,7 +267,4 @@ HTML;
 
 //$seller_Segments = new seller_Segments;
 seller_Segments::inject($pdo);
-$num_of_prod = seller_Segments::site_numbers("Products");
-$num_of_users = seller_Segments::site_numbers("Users");
-$num_of_orders = seller_Segments::site_numbers("Orders");
 ?>

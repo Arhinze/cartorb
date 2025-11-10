@@ -206,26 +206,7 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
         //End of PHP script To Delete Product:
 ?>
     <div class="site_content"><!-- .site_content starts -->
-        <!-- .below_header_div starts -->
-        <div style="display:flex;margin:50px 1%;justify-content:space-around;width:80%">
-            <div class="below_header_div" style="background-color:#ff9100">
-                <div class="numbers_and_fa">
-                    <div class="numbers"><a href="/admin-products" style="color:#000"><?=$num_of_prod?></a></div>
-                    <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
-                </div>
-                <div><a href="/admin-products" style="color:#000">Products</a></div>
-            </div>
-    
-            <div class="below_header_div" style="background-color:#f3d111">
-                <div class="numbers_and_fa">
-                    <div class="numbers"><a href="/orders" style="color:#000"><?=$num_of_orders?></a></div>
-                    <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
-                </div>
-                <div><a href="/orders" style="color:#000">Pending Orders</a></div>
-            </div>
-        </div><!-- .below_header_div ends -->
-
-
+        
         <!-- HTML -->
         <div class="dashboard_div" style="margin:-30px 3% 10% 3%;">
         <h1 style="margin:12px 6px">Products - <?=$site_name?></h1>
