@@ -210,7 +210,7 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
         <div style="display:flex;margin:50px 1%;justify-content:space-around;width:80%">
             <div class="below_header_div" style="background-color:#ff9100">
                 <div class="numbers_and_fa">
-                    <div class="numbers"><a href="/admin-products" style="color:#000">$num_of_prod</a></div>
+                    <div class="numbers"><a href="/admin-products" style="color:#000"><?=$num_of_prod?></a></div>
                     <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
                 </div>
                 <div><a href="/admin-products" style="color:#000">Products</a></div>
@@ -218,7 +218,7 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
     
             <div class="below_header_div" style="background-color:#f3d111">
                 <div class="numbers_and_fa">
-                    <div class="numbers"><a href="/orders" style="color:#000">$num_of_orders</a></div>
+                    <div class="numbers"><a href="/orders" style="color:#000"><?=$num_of_orders?></a></div>
                     <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
                 </div>
                 <div><a href="/orders" style="color:#000">Pending Orders</a></div>
