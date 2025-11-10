@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6{
     border-radius:3px;
 }
 
-.menu_list {
+.menu_list, .seller_menu_list {
     list-style-type:none;
     height:100%;
     width:75%;
@@ -1495,7 +1495,7 @@ h1, h2, h3, h4, h5, h6{
 
 .site_numbers {
     display:flex;
-    margin:50px 1%;
+    margin:15px;
     justify-content:space-around;
     width:80%;
     flex-wrap:wrap;
@@ -1547,9 +1547,13 @@ h1, h2, h3, h4, h5, h6{
         width:70%
     }
 
-    .menu_list{
+    .menu_list,.seller_menu_list{
         display:block;
         position:static;
+    }
+
+    .seller_menu_list{
+        margin-top:24px;
     }
 
     .grey_area{
