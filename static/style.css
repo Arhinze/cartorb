@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6{
     border-radius:3px;
 }
 
-.menu_list, .seller_menu_list {
+.menu_list {
     list-style-type:none;
     height:100%;
     width:75%;
@@ -1547,13 +1547,9 @@ h1, h2, h3, h4, h5, h6{
         width:70%
     }
 
-    .menu_list,.seller_menu_list{
+    .menu_list{
         display:block;
         position:static;
-    }
-
-    .seller_menu_list{
-        margin-top:24px;
     }
 
     .grey_area{
