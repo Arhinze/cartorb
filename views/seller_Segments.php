@@ -3,9 +3,6 @@
 //seller_Segments
 
 include_once($_SERVER["DOCUMENT_ROOT"]."/php/connection.php");
-$num_of_prod = seller_Segments::site_numbers("Products");
-$num_of_users = seller_Segments::site_numbers("Users");
-$num_of_orders = seller_Segments::site_numbers("Orders");
 
 Class seller_Segments{
     public static function headerr () {
@@ -251,4 +248,7 @@ HTML;
 
 //$seller_Segments = new seller_Segments;
 seller_Segments::inject($pdo);
+$num_of_prod = seller_Segments::site_numbers("Products");
+$num_of_users = seller_Segments::site_numbers("Users");
+$num_of_orders = seller_Segments::site_numbers("Orders");
 ?>
