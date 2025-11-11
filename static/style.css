@@ -1547,6 +1547,10 @@ h1, h2, h3, h4, h5, h6{
         margin-top:60px;
     }
 
+    .site_content_and_menu_sellers .site_content {
+        margin-top:80px;
+    }
+
     .site_menu{
         width:25%;
     }
