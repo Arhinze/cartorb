@@ -1454,6 +1454,18 @@ h1, h2, h3, h4, h5, h6{
     border-radius:6px;
 }
 
+.table_row_div{
+    display:flex;
+    width:105%;
+    font-weight:bold;
+}
+
+.table_row{
+    width:46%;
+    overflow: hidden;
+    text-align: left;
+}
+
 .hidden-menu-div{
     display:none;
     background-color:var(--site_color_alt); 
