@@ -150,26 +150,26 @@ Class seller_Segments{
                     <li><i class="fa fa-key"></i> <a href="/seller-reset-password">Reset Password</a></li>
                     <li><a href="/logout" style="color:#fff;font-weight:bold;background-color:#0bee3ccc;padding:6px;border-radius:12px">Log out</a></li>
                     <label for="menu-box"><div class="grey_area"></div></label>
-                </ul>
 
-                <!-- .below_header_div starts -->
-                <div class="site_numbers">
-                    <div class="below_header_div" style="background-color:#ff9100">
-                        <div class="numbers_and_fa">
-                            <div class="numbers"><a href="/admin-products" style="color:#000">$num_of_prod</a></div>
-                            <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
+                    <!-- .below_header_div starts -->
+                    <div class="site_numbers">
+                        <div class="below_header_div" style="background-color:#ff9100">
+                            <div class="numbers_and_fa">
+                                <div class="numbers"><a href="/admin-products" style="color:#000">$num_of_prod</a></div>
+                                <div><a href="/admin-products" style="color:#000"><i class="fa fa-user"></i></a></div>
+                            </div>
+                            <div><a href="/admin-products" style="color:#000">Products</a></div>
                         </div>
-                        <div><a href="/admin-products" style="color:#000">Products</a></div>
-                    </div>
-            
-                    <div class="below_header_div" style="background-color:#f3d111">
-                        <div class="numbers_and_fa">
-                            <div class="numbers"><a href="/orders" style="color:#000">$num_of_orders</a></div>
-                            <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
+                
+                        <div class="below_header_div" style="background-color:#f3d111">
+                            <div class="numbers_and_fa">
+                                <div class="numbers"><a href="/orders" style="color:#000">$num_of_orders</a></div>
+                                <div><a href="/orders" style="color:#000"><i class="fa fa-user"></i></a></div>
+                            </div>
+                            <div><a href="/orders" style="color:#000">Pending Orders</a></div>
                         </div>
-                        <div><a href="/orders" style="color:#000">Pending Orders</a></div>
-                    </div>
-                </div><!-- .site_numbers ends -->
+                    </div><!-- .site_numbers ends -->
+                </ul>
                 </div><!-- .site_menu ends -->
 HTML;
 }
