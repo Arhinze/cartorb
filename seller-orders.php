@@ -2,8 +2,8 @@
 include_once($_SERVER["DOCUMENT_ROOT"]."/views/seller_Segments.php");
 
 if(isset($_COOKIE["seller_name"]) && isset($_COOKIE["seller_password"])){
-    $stmt = $pdo->prepare("SELECT * FROM `sellers` WHERE seller_name = ? AND seller_password = ?");
-    $stmt->execute([$_COOKIE["seller_name"], $_COOKIE["seller_password"]]);
+    $stmt = $pdo->prepare("SELECT * FROM `sellers` WHERE (seller_username = ? OR seller_email = ?) AND seller_password = ?");
+    $stmt->execute([$_COOKIE["seller_username"], $_COOKIE["seller_username"], $_COOKIE["seller_password"]]);
 
     $data = $stmt->fetch(PDO::FETCH_OBJ);
     if($data){//that means seller is logged in
