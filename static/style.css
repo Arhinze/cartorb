@@ -1500,6 +1500,10 @@ h1, h2, h3, h4, h5, h6{
     width:80%;
     flex-wrap:wrap;
 }
+
+.site_numbers .below_header_div {
+    width:80%;
+}
 /*Dashboard ends*/
 
 /*End of other pages*/
