@@ -1504,6 +1504,10 @@ h1, h2, h3, h4, h5, h6{
 .site_numbers .below_header_div {
     width:80%;
 }
+
+.site_content_and_menu_sellers .site_content {
+    margin-top:66px;
+}
 /*Dashboard ends*/
 
 /*End of other pages*/
