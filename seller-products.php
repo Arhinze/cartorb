@@ -499,8 +499,8 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
         </div> <!-- End of Paginator -->
         </div> <!-- End of class 'main_div' -->
         </div><!-- .site_content ends -->
-        </div><!-- .site_content_and_menu_sellers ends -->
         </div><!-- .site_content_and_menu ends -->
+        </div><!-- .site_content_and_menu_sellers ends -->
 
 <?php
     }else{
