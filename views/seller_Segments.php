@@ -142,6 +142,7 @@ Class seller_Segments{
                 </div> 
             
                 <div class="site_content_and_menu"><!-- .site_content_and_menu starts -->
+                <div class="site_content_and_menu_sellers"><!-- .site_content_and_menu_sellers starts -->
                 <div class="site_menu"><!-- .site_menu starts -->
                 <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
                 <ul class="menu_list">
