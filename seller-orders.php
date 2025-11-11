@@ -30,6 +30,7 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
         //that means seller is logged in
         seller_Segments::header();
 ?>
+        <div class="site_content"><!-- .site_content starts -->       
         <div class="dashboard_div" style="margin:-30px 3% 10% 3%;">
 
         <h1 style="margin:12px 6px">Orders - <?=$site_name?></h2>
@@ -285,6 +286,9 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
         </div> <!-- End of Paginator -->
 
         </div> <!-- End of class 'main_div' -->
+        </div><!-- .site_content ends -->
+        </div><!-- .site_content_and_menu ends -->
+        </div><!-- .site_content_and_menu_sellers ends -->
 
 <?php
     }else{

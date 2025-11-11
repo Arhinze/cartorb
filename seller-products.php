@@ -205,7 +205,7 @@ if(isset($_COOKIE["seller_username"]) && isset($_COOKIE["seller_password"])){
         }
         //End of PHP script To Delete Product:
 ?>
-    <div class="site_content"><!-- .site_content starts -->
+    <div class="site_content"><!-- .site_content starts -->       
         
         <!-- HTML -->
         <div class="dashboard_div" style="margin:-30px 3% 10% 3%;">
