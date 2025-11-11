@@ -146,8 +146,8 @@ Class seller_Segments{
                 <div class="site_menu"><!-- .site_menu starts -->
                 <input type="checkbox" id="menu-box" class="menu-box" style="display:none"/>
                 <ul class="menu_list">
-                    <li><i class="fa fa-home"></i> <a href="/admin-products">My Products</a></li>
-                    <li><i class="fa fa-bolt"></i> <a href="/orders">My Orders</a></li>
+                    <li><i class="fa fa-home"></i> <a href="/seller-products">My Products</a></li>
+                    <li><i class="fa fa-bolt"></i> <a href="/seller-orders">My Orders</a></li>
                     <li><i class="fa fa-key"></i> <a href="/seller-reset-password">Reset Password</a></li>
                     <li><a href="/logout" style="color:#fff;font-weight:bold;background-color:#0bee3ccc;padding:6px;border-radius:12px">Log out</a></li>
                     <label for="menu-box"><div class="grey_area"></div></label>
